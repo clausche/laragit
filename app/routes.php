@@ -1,7 +1,7 @@
 <?php
 
  //DB::getQueryLog();
-  
+  //hola git
 
 Event::listen('illuminate.query', function($sql) {
             var_dump($sql);
