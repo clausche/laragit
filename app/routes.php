@@ -2,6 +2,7 @@
 
  //DB::getQueryLog();
   //hola git
+//Hola laragit oficina
 
 Event::listen('illuminate.query', function($sql) {
             var_dump($sql);
